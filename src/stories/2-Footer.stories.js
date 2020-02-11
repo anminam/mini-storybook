@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import './index.css';
 import { action } from '@storybook/addon-actions';
 import { Button } from '@storybook/react/demo';
 
@@ -12,12 +12,12 @@ export const Text = () => <Button onClick={action('clicked')}>Hello Button</Butt
 export const liText = () => {
   return (
     <footer>
-      <div className="footer-small-text-container">
-        <ul>
-          <li>훈미니</li>
-          <li>훈미니</li>
-          <li>훈미니</li>
-          <li>훈미니</li>
+      <div class="footer-tab-container">
+        <ul class="footer-tab">
+          <li>공지사항</li>
+          <li>게시판</li>
+          <li>어쩌구</li>
+          <li>저쩌구</li>
         </ul>
       </div>
     </footer>

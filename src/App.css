@@ -1,9 +1,27 @@
-footer .footer-small-text-container li:after{
+footer .footer-tab-container {
+	margin: 10px;
+}
+footer .footer-tab {
+	overflow: hidden;
+	padding-top: 1px;
+}
+footer .footer-tab li {
+	float: left;
+	padding: 0 20px;
+	position: relative;
+}
+footer .footer-tab li:first-child {
+	padding-left: 0;
+}
+footer .footer-tab li:first-child:after {
+	display: none;
+}
+footer .footer-tab li:after {
 	content:'';
 	position:absolute;
 	top:3px;
 	left:0;
 	width:1px;
 	height:12px;
-	background:#ddd;
+	background:#dddddd;
 }
